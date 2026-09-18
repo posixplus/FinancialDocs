@@ -1,0 +1,40 @@
+/* PDF layout (rendered by scripts/pdf.mjs with Chromium) */
+@page{size:Letter;margin:16mm 17mm 20mm}
+body.print{font-size:10.5pt;line-height:1.6;background:#fff}
+html[lang=ta] body.print{font-size:10pt;line-height:1.75}
+.print [data-lang-block]{display:block}
+.cover{height:calc(279.4mm - 36mm);display:flex;flex-direction:column;justify-content:center;page-break-after:always;position:relative}
+.cover-top{position:absolute;top:0;left:0;display:flex;align-items:center;gap:10px;font-weight:600;font-size:10pt;color:#34463C}
+.cover-top svg{width:26px;height:26px}
+.cover .kicker{color:#9A7418;font-weight:600;font-size:9.5pt;letter-spacing:.14em;text-transform:uppercase;margin:0}
+html[lang=ta] .cover .kicker{letter-spacing:.02em;text-transform:none}
+.cover h1{font-family:var(--serif);color:var(--forest);font-size:34pt;line-height:1.1;margin:12px 0 6px}
+.cover .sub{font-family:var(--serif);font-size:19pt;color:#34463C;margin:0 0 16px}
+html[lang=ta] .cover h1{font-family:var(--sans);font-size:26pt;line-height:1.35}
+html[lang=ta] .cover .sub{font-family:var(--sans);font-weight:600;font-size:16pt}
+.cover .by{font-size:11pt;color:#6E7C74;margin:0 0 36px}
+.cover-disclaimer{border:1.5px solid var(--forest);border-radius:8px;padding:14px 18px;background:var(--wash);max-width:150mm}
+.cover-disclaimer strong{display:block;color:var(--forest);font-size:10pt;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+html[lang=ta] .cover-disclaimer strong{letter-spacing:0;text-transform:none;font-size:11pt}
+.cover-disclaimer p{margin:0;font-size:10.5pt}
+.cover-meta{position:absolute;bottom:0;left:0;font-size:9pt;color:#6E7C74;margin:0}
+.print-toc{page-break-after:always}
+.print-toc h2{font-family:var(--serif);color:var(--forest);font-size:20pt;margin:0 0 14px}
+html[lang=ta] .print-toc h2{font-family:var(--sans)}
+.print-toc ol{list-style:none;padding:0;margin:0}
+.print-toc li{display:grid;grid-template-columns:10mm 1fr;padding:6px 0;border-bottom:1px solid var(--line)}
+.print-toc .n{color:var(--sage);font-family:var(--serif)}
+.print main{padding:0;max-width:none}
+.print section.doc{margin-bottom:22px;padding-top:0}
+.print section.doc > h2{font-size:17pt;break-after:avoid;margin-bottom:10px}
+html[lang=ta] .print section.doc > h2{font-size:14.5pt}
+.print section.doc > h2 a.anchor{display:none}
+.print .doc h3{font-size:11.5pt;margin:16px 0 6px;break-after:avoid}
+.print .doc p{margin-bottom:9px}
+.print .doc li{margin-bottom:4px}
+.print .callout,.print .table-wrap,.print tr,.print .lead-disclaimer{break-inside:avoid}
+.print table{font-size:9.5pt}
+.print th,.print td{padding:7px 9px}
+.print a{color:var(--link);text-decoration:none}
+.print .lead-disclaimer.end{margin-top:24px;font-size:9.5pt}
+.print *{-webkit-print-color-adjust:exact;print-color-adjust:exact}

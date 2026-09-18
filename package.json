@@ -1,0 +1,25 @@
+{
+  "name": "family-estate-planning-guide",
+  "version": "1.0.0",
+  "description": "English/Tamil estate planning guide (Will, Trust, TOD) synced from Google Docs",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "build": "node scripts/build.mjs",
+    "pdf": "node scripts/pdf.mjs",
+    "all": "npm run sync && npm run build && npm run pdf"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

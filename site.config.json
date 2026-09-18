@@ -1,0 +1,35 @@
+{
+  "siteName": "Family Estate Planning Guide",
+  "siteUrl": "https://will-trust-guide.vercel.app",
+  "feedbackEmail": "njayakanthan@gmail.com",
+  "docs": {
+    "en": "1cK5UMJgyhb5OaEuwyl2TXd2OGlXu82mdgJ64o9QaD_g",
+    "ta": "1qasNbHHRaMCfMToDbb1xEOQL-rcq4aLlDQIBRoaL2Gk"
+  },
+  "ui": {
+    "en": {
+      "brand": "Family Estate Planning Guide",
+      "kicker": "Virginia · Will, Trust & TOD Deed",
+      "contents": "Contents",
+      "download": "Download PDF",
+      "disclaimer": "Disclaimer",
+      "pdfFooter": "General awareness information only. Not legal advice. Consult an Estate Planning Attorney for your specific situation.",
+      "updated": "Last updated",
+      "top": "Back to top",
+      "feedback": "Send feedback",
+      "source": "Source document"
+    },
+    "ta": {
+      "brand": "குடும்ப சொத்து திட்டமிடல் வழிகாட்டி",
+      "kicker": "வர்ஜீனியா · உயில், நம்பிக்கை நிதியம் & TOD",
+      "contents": "பொருளடக்கம்",
+      "download": "PDF பதிவிறக்கம்",
+      "disclaimer": "பொறுப்பு துறப்பு",
+      "pdfFooter": "இந்த ஆவணம் பொதுவான விழிப்புணர்வுத் தகவல் மட்டுமே. சட்ட ஆலோசனை அல்ல.",
+      "updated": "கடைசியாகப் புதுப்பித்தது",
+      "top": "மேலே செல்ல",
+      "feedback": "கருத்துகளை அனுப்ப",
+      "source": "மூல ஆவணம்"
+    }
+  }
+}
